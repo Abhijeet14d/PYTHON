@@ -1,4 +1,5 @@
-k=(input("k:",))
+print("\t\t\t -------------FIBONACCI SERIES---------------")
+k=(input("Enter the number's that you want to check whether it is a valid number in a Fibonacci series or not:",))
 li1=k.split(",")
 li2=[]
 for i in li1:
@@ -19,3 +20,4 @@ for i in li2:
         print(i,"is valid")
     else:
         print(i,"is not valid")
+print("\n\t\t\t --------------------------------Thankyou------------------------------")
